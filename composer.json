@@ -17,9 +17,15 @@
     "symfony",
     "bundle"
   ],
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/virusv/oauth2-esia"
+    }
+  ],
   "require": {
     "php": "^5.6 || ^7.0 || ^8.0",
-    "ekapusta/oauth2-esia": "^1.4",
+    "ekapusta/oauth2-esia": "dev-fix-version",
     "symfony/config": "^2.8 || ^3 || ^4 || ^5",
     "symfony/dependency-injection": "^2.8 || ^3 || ^4 || ^5",
     "symfony/http-kernel": "^2.8 || ^3 || ^4 || ^5"
