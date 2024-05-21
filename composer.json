@@ -18,7 +18,7 @@
     "bundle"
   ],
   "require": {
-    "php": "^7.0 || ^8.0",
+    "php": "^5.6 || ^7.0 || ^8.0",
     "ekapusta/oauth2-esia": "^1.4",
     "symfony/config": "^2.8 || ^3 || ^4 || ^5",
     "symfony/dependency-injection": "^2.8 || ^3 || ^4 || ^5",
